@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    const MaterialApp(
+      home: Center(
+        child: Text('Hello World'),
+      ),
+    ),
+  );
 }
